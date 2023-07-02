@@ -6,13 +6,16 @@ body{
     margin:0;
     font-family: sans-serif;
 }
+img {
+    height:300px;
+    width: auto;
+}
 .padding_default {
-    padding: 50px 100px 0 100px;
+    padding: 50px 100px 50px 100px;
     color: white;
-    position:sticky;
-    top: 0;
-    min-height: 100vh;
+    height: auto;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 li{
     line-height: 2.5;
@@ -28,11 +31,13 @@ hr{
 .edu h2, .personality h2, .skill h2, .lang h2{
     font-size: 3rem;
     background-color: white;
-    width: fit-content;
-    /* color: black; */
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
+    position:sticky;
+    top: 0;
 }
+
 
 /* intro */
 
@@ -91,4 +96,32 @@ hr{
 
 .lang h2{
     color: salmon;
+}
+
+@media (max-width: 768px) { 
+    .padding_default {
+        padding: 30px 10px;
+    }
+    img{
+        height: 150px;
+    }
+    .intro h1{
+        text-align: center;
+        font-size: 4rem;
+    }
+    .intro img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .edu a{
+        text-align: center;
+        float: none;
+    }
+    #ndhuimg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
