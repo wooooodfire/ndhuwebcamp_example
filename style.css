@@ -6,9 +6,11 @@ body{
     margin:0;
     font-family: sans-serif;
 }
-img {
-    height:300px;
+
+#ndhuimg, #myimg{
+    height: 300px;
 }
+
 .padding_default {
     padding: 50px 100px 50px 100px;
     color: white;
@@ -101,7 +103,7 @@ hr{
     .padding_default {
         padding: 30px 10px;
     }
-    img{
+    #ndhuimg, #myimg{
         height: auto;
         width:100%;
     }
