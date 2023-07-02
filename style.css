@@ -1,0 +1,94 @@
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+.padding_default {
+    padding: 50px 100px 0 100px;
+    color: white;
+    position:sticky;
+    top: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+li{
+    line-height: 2.5;
+}
+hr{
+    border-top: 10px dotted white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 30px 0;
+}
+
+.edu h2, .personality h2, .skill h2, .lang h2{
+    font-size: 3rem;
+    background-color: white;
+    width: fit-content;
+    /* color: black; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* intro */
+
+.intro{
+    background-color: tomato;
+    position:sticky;
+
+}
+
+.intro h1{
+    color:white;
+    font-size: 7rem;
+}
+
+.intro img{
+    float: right;
+}
+
+/* edu */
+
+.edu{
+    background-color: mediumseagreen;
+}
+.edu h2{
+    color: mediumseagreen;
+}
+.edu a{
+    float: right;
+}
+
+
+/* skill */
+
+.skill{
+    background-color: slateblue;
+}
+.skill h2{
+    color: slateblue;
+}
+
+/* personality */
+
+.personality{
+    background-color: darkcyan;
+}
+
+.personality h2{
+    color: darkcyan;
+}
+
+/* lang */
+
+.lang{
+    background-color: salmon;
+}
+
+.lang h2{
+    color: salmon;
+}
