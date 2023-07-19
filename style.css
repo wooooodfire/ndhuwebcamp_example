@@ -7,6 +7,19 @@ body{
     font-family: sans-serif;
 }
 
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#myname, #myimg{
+    animation: fadein 3s ease-in-out;
+}
+
 #ndhuimg, #myimg{
     height: 300px;
 }
